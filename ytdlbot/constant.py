@@ -23,44 +23,40 @@ from utils import get_func_queue
 
 class BotText:
     start = """
-    Welcome to YouTube Download bot. Type /help for more information. Recommend to use EU Bot
-    EU🇪🇺: @benny_2ytdlbot
-    SG🇸🇬：@benny_ytdlbot
-
-    Join https://t.me/+OGRC8tp9-U9mZDZl for updates."""
+    YouTube İndirme botuna hoş geldiniz. Daha fazla bilgi için /help yazın. TR Botunu kullanmanızı öneririz. Güncellemeler için https://t.me/OfficiallKiyici 'ya Mesaj Atın."""
 
     help = """
-1. For YouTube and any websites supported by yt-dlp, just send the link and we will download and send it to you.
+1. YouTube ve yt-dlp tarafından desteklenen tüm web siteleri için bağlantıyı göndermeniz yeterli; biz de indirip size gönderelim..
 
-2. For specific links use `/spdl {URL}`. More info at https://github.com/SanujaNS/ytdlbot-telegram#supported-websites 
+2. Belirli bağlantılar için `/spdl {URL}` kullanın. Daha fazla bilgi için: @OfficiallKiyici
 
-3. If the bot doesn't work, try again or join https://t.me/+OGRC8tp9-U9mZDZl for updates.
+3. Bot çalışmıyorsa tekrar deneyin veya güncellemeler için https://t.me/Officiallkiyici 'ya Mesaj Atın..
 
-4. Wanna deploy it yourself?\nHere's the source code: https://github.com/tgbot-collection/ytdlbot
+4. Wanna deploy it yourself?\nHere's the source code: @Meyitzade
     """
 
-    about = "YouTube Downloader by @BennyThink.\n\nOpen source on GitHub: https://github.com/tgbot-collection/ytdlbot"
+    about = "GİTHUB REPO İÇİN @meyitzade"
 
     buy = f"""
-**Terms:**
-1. You can use this bot to download video for {FREE_DOWNLOAD} times within a 24-hour period.
+**Şartlar:**
+1. 24 saatlik süre içinde videoyu {FREE_DOWNLOAD} kez indirmek için bu botu kullanabilirsiniz.
 
-2. You can buy additional download tokens, valid permanently.
+2. Kalıcı olarak geçerli olan ek indirme jetonları satın alabilirsiniz.
 
-3. Refunds are possible, contact me if you need that @BennyThink
+3. Para iadesi mümkündür, ihtiyacınız olursa benimle iletişime geçin @OfficialKiyici
 
-4. Download for paid user will be automatically changed to Local mode to avoid queuing.
+4. Ücretli kullanıcılar için indirme, sıraya girmeyi önlemek amacıyla otomatik olarak Yerel moda değiştirilecek.
 
-5. Paid user can download files larger than 2GB.
+5. Ücretli kullanıcı 2GB'tan büyük dosyaları indirebilir.
 
-**Price:**
-valid permanently
+**Fiyat:**
+kalıcı olarak-
 1. 1 USD == {TOKEN_PRICE} tokens
 2. 7 CNY == {TOKEN_PRICE} tokens
 3. 10 TRX == {TOKEN_PRICE} tokens
 
-**Payment options:**
-Pay any amount you want. For example you can send 20 TRX for {TOKEN_PRICE * 2} tokens.
+**Ödeme seçenekleri:**
+İstediğiniz tutarı ödeyin. Örneğin, {TOKEN_PRICE * 2} token karşılığında 20 TRX gönderebilirsiniz.
 1. AFDIAN(AliPay, WeChat Pay and PayPal): {AFD_LINK}
 2. Buy me a coffee: {COFFEE_LINK}
 3. Telegram Bot Payment(Stripe), please click Bot Payment button.
