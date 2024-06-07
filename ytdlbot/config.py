@@ -47,8 +47,8 @@ MYSQL_PASS = os.getenv("MYSQL_PASS", "root")
 AUDIO_FORMAT = os.getenv("AUDIO_FORMAT")
 ARCHIVE_ID = os.getenv("ARCHIVE_ID")
 
-IPv6 = os.getenv("IPv6", False)
-ENABLE_FFMPEG = os.getenv("ENABLE_FFMPEG", False)
+IPv6 = os.getenv("IPv6", True)
+ENABLE_FFMPEG = os.getenv("ENABLE_FFMPEG", True)
 
 PLAYLIST_SUPPORT = os.getenv("PLAYLIST_SUPPORT", False)
 M3U8_SUPPORT = os.getenv("M3U8_SUPPORT", False)
